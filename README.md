@@ -205,6 +205,10 @@ docker run -d \
 
 > This path requires the published container image. If the pull fails with `manifest unknown` or a `403`, the image is not public yet, use the native installer above (it builds locally and needs no registry image), or build from source. See the [install docs](https://marlburrow.github.io/hivekeep/docs/) for the Docker Compose path and reverse-proxy setup. The installer also offers a hardened Docker mode: `bash <(curl -fsSL .../install.sh) --docker`.
 
+### One-click deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Hivekeep/)
+
 ### Recovery one-liners
 
 ```bash
